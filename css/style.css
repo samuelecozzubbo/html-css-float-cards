@@ -12,7 +12,6 @@
 
 body{
     font-family: 'Fredoka' , 'sans-serif';
-    color: white;
 }
 
 /* Regole header */
@@ -20,4 +19,21 @@ h1{
     color: brown;
     margin-bottom: 50px;
     text-align: center;
+}
+
+/* Regole main */
+.row{
+    display: block;
+}
+.col{
+    /* DEBUG */
+    background-color: blueviolet;
+    min-height: 100px;
+    max-width: 30%;
+    border: solid 2px white;
+    width: calc(100% / 3);
+    float: left;
+    text-align: center;
+    padding: 0 10px;
+    margin: 30px 16px 30px auto;
 }
