@@ -19,6 +19,7 @@ h1{
     color: brown;
     margin-bottom: 50px;
     text-align: center;
+    font-size: 50px;
 }
 
 /* Regole main */
@@ -27,8 +28,8 @@ h1{
     /* DEBUG */
     background-color: rgb(15, 14, 23);
     min-height: 100px;
-    border: solid 2px white;
-    width: calc(100% / 4);
+    box-shadow: 8px 8px 5px #dedede;
+    width: calc((100% / 3.3));
     float: left;
     margin: 40px 20px 40px;
 }
@@ -54,4 +55,5 @@ h2,h4{
 
 a{
     color: lightblue;
+    text-decoration: none;
 }
