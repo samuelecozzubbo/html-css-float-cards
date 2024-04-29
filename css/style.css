@@ -1,0 +1,23 @@
+/* Regole generali pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+body{
+    font-family: 'Fredoka' , 'sans-serif';
+    color: white;
+}
+
+/* Regole header */
+h1{
+    color: brown;
+    margin-bottom: 50px;
+    text-align: center;
+}
